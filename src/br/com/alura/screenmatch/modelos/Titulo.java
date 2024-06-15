@@ -50,7 +50,7 @@ public class Titulo {
         System.out.println("Nota do filme: " + pegaMediaAvaliacoes());
     }
 
-    private double pegaMediaAvaliacoes(){
+    public double pegaMediaAvaliacoes(){
         return (somaNotasAvaliacoes / totalDeAvaliacoes);
     }
 
